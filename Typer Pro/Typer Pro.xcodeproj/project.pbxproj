@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74456AD251EC57A009DE506 /* Typer_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74456AC251EC57A009DE506 /* Typer_ProApp.swift */; };
+		E74456AF251EC57A009DE506 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74456AE251EC57A009DE506 /* ContentView.swift */; };
+		E74456B1251EC57D009DE506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74456B0251EC57D009DE506 /* Assets.xcassets */; };
+		E74456B4251EC57D009DE506 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74456B3251EC57D009DE506 /* Preview Assets.xcassets */; };
+		E74456BF251EC57D009DE506 /* Typer_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74456BE251EC57D009DE506 /* Typer_ProTests.swift */; };
+		E74456CA251EC57D009DE506 /* Typer_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74456C9251EC57D009DE506 /* Typer_ProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74456BB251EC57D009DE506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74456A1251EC57A009DE506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74456A8251EC57A009DE506;
+			remoteInfo = "Typer Pro";
+		};
+		E74456C6251EC57D009DE506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74456A1251EC57A009DE506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74456A8251EC57A009DE506;
+			remoteInfo = "Typer Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74456A9251EC57A009DE506 /* Typer Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typer Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74456AC251EC57A009DE506 /* Typer_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typer_ProApp.swift; sourceTree = "<group>"; };
+		E74456AE251EC57A009DE506 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E74456B0251EC57D009DE506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74456B3251EC57D009DE506 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E74456B5251EC57D009DE506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74456BA251EC57D009DE506 /* Typer ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typer ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74456BE251EC57D009DE506 /* Typer_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typer_ProTests.swift; sourceTree = "<group>"; };
+		E74456C0251EC57D009DE506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74456C5251EC57D009DE506 /* Typer ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typer ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74456C9251EC57D009DE506 /* Typer_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typer_ProUITests.swift; sourceTree = "<group>"; };
+		E74456CB251EC57D009DE506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74456A6251EC57A009DE506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74456B7251EC57D009DE506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74456C2251EC57D009DE506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74456A0251EC57A009DE506 = {
+			isa = PBXGroup;
+			children = (
+				E74456AB251EC57A009DE506 /* Typer Pro */,
+				E74456BD251EC57D009DE506 /* Typer ProTests */,
+				E74456C8251EC57D009DE506 /* Typer ProUITests */,
+				E74456AA251EC57A009DE506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74456AA251EC57A009DE506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74456A9251EC57A009DE506 /* Typer Pro.app */,
+				E74456BA251EC57D009DE506 /* Typer ProTests.xctest */,
+				E74456C5251EC57D009DE506 /* Typer ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74456AB251EC57A009DE506 /* Typer Pro */ = {
+			isa = PBXGroup;
+			children = (
+				E74456AC251EC57A009DE506 /* Typer_ProApp.swift */,
+				E74456AE251EC57A009DE506 /* ContentView.swift */,
+				E74456B0251EC57D009DE506 /* Assets.xcassets */,
+				E74456B5251EC57D009DE506 /* Info.plist */,
+				E74456B2251EC57D009DE506 /* Preview Content */,
+			);
+			path = "Typer Pro";
+			sourceTree = "<group>";
+		};
+		E74456B2251EC57D009DE506 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E74456B3251EC57D009DE506 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E74456BD251EC57D009DE506 /* Typer ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74456BE251EC57D009DE506 /* Typer_ProTests.swift */,
+				E74456C0251EC57D009DE506 /* Info.plist */,
+			);
+			path = "Typer ProTests";
+			sourceTree = "<group>";
+		};
+		E74456C8251EC57D009DE506 /* Typer ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74456C9251EC57D009DE506 /* Typer_ProUITests.swift */,
+				E74456CB251EC57D009DE506 /* Info.plist */,
+			);
+			path = "Typer ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74456A8251EC57A009DE506 /* Typer Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74456CE251EC57D009DE506 /* Build configuration list for PBXNativeTarget "Typer Pro" */;
+			buildPhases = (
+				E74456A5251EC57A009DE506 /* Sources */,
+				E74456A6251EC57A009DE506 /* Frameworks */,
+				E74456A7251EC57A009DE506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typer Pro";
+			productName = "Typer Pro";
+			productReference = E74456A9251EC57A009DE506 /* Typer Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74456B9251EC57D009DE506 /* Typer ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74456D1251EC57D009DE506 /* Build configuration list for PBXNativeTarget "Typer ProTests" */;
+			buildPhases = (
+				E74456B6251EC57D009DE506 /* Sources */,
+				E74456B7251EC57D009DE506 /* Frameworks */,
+				E74456B8251EC57D009DE506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74456BC251EC57D009DE506 /* PBXTargetDependency */,
+			);
+			name = "Typer ProTests";
+			productName = "Typer ProTests";
+			productReference = E74456BA251EC57D009DE506 /* Typer ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74456C4251EC57D009DE506 /* Typer ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74456D4251EC57D009DE506 /* Build configuration list for PBXNativeTarget "Typer ProUITests" */;
+			buildPhases = (
+				E74456C1251EC57D009DE506 /* Sources */,
+				E74456C2251EC57D009DE506 /* Frameworks */,
+				E74456C3251EC57D009DE506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74456C7251EC57D009DE506 /* PBXTargetDependency */,
+			);
+			name = "Typer ProUITests";
+			productName = "Typer ProUITests";
+			productReference = E74456C5251EC57D009DE506 /* Typer ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74456A1251EC57A009DE506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E74456A8251EC57A009DE506 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					E74456B9251EC57D009DE506 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = E74456A8251EC57A009DE506;
+					};
+					E74456C4251EC57D009DE506 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = E74456A8251EC57A009DE506;
+					};
+				};
+			};
+			buildConfigurationList = E74456A4251EC57A009DE506 /* Build configuration list for PBXProject "Typer Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74456A0251EC57A009DE506;
+			productRefGroup = E74456AA251EC57A009DE506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74456A8251EC57A009DE506 /* Typer Pro */,
+				E74456B9251EC57D009DE506 /* Typer ProTests */,
+				E74456C4251EC57D009DE506 /* Typer ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74456A7251EC57A009DE506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74456B4251EC57D009DE506 /* Preview Assets.xcassets in Resources */,
+				E74456B1251EC57D009DE506 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74456B8251EC57D009DE506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74456C3251EC57D009DE506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74456A5251EC57A009DE506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74456AF251EC57A009DE506 /* ContentView.swift in Sources */,
+				E74456AD251EC57A009DE506 /* Typer_ProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74456B6251EC57D009DE506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74456BF251EC57D009DE506 /* Typer_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74456C1251EC57D009DE506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74456CA251EC57D009DE506 /* Typer_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74456BC251EC57D009DE506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74456A8251EC57A009DE506 /* Typer Pro */;
+			targetProxy = E74456BB251EC57D009DE506 /* PBXContainerItemProxy */;
+		};
+		E74456C7251EC57D009DE506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74456A8251EC57A009DE506 /* Typer Pro */;
+			targetProxy = E74456C6251EC57D009DE506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E74456CC251EC57D009DE506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74456CD251EC57D009DE506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74456CF251EC57D009DE506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Typer Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = LGJ726MZXG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Typer Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Apps.Typer-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74456D0251EC57D009DE506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Typer Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = LGJ726MZXG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Typer Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Apps.Typer-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74456D2251EC57D009DE506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGJ726MZXG;
+				INFOPLIST_FILE = "Typer ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Apps.Typer-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typer Pro.app/Typer Pro";
+			};
+			name = Debug;
+		};
+		E74456D3251EC57D009DE506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGJ726MZXG;
+				INFOPLIST_FILE = "Typer ProTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Apps.Typer-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typer Pro.app/Typer Pro";
+			};
+			name = Release;
+		};
+		E74456D5251EC57D009DE506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGJ726MZXG;
+				INFOPLIST_FILE = "Typer ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Apps.Typer-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Typer Pro";
+			};
+			name = Debug;
+		};
+		E74456D6251EC57D009DE506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LGJ726MZXG;
+				INFOPLIST_FILE = "Typer ProUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aryan-Apps.Typer-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Typer Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74456A4251EC57A009DE506 /* Build configuration list for PBXProject "Typer Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74456CC251EC57D009DE506 /* Debug */,
+				E74456CD251EC57D009DE506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74456CE251EC57D009DE506 /* Build configuration list for PBXNativeTarget "Typer Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74456CF251EC57D009DE506 /* Debug */,
+				E74456D0251EC57D009DE506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74456D1251EC57D009DE506 /* Build configuration list for PBXNativeTarget "Typer ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74456D2251EC57D009DE506 /* Debug */,
+				E74456D3251EC57D009DE506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74456D4251EC57D009DE506 /* Build configuration list for PBXNativeTarget "Typer ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74456D5251EC57D009DE506 /* Debug */,
+				E74456D6251EC57D009DE506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74456A1251EC57A009DE506 /* Project object */;
+}
