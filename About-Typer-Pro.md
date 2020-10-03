@@ -1,8 +1,8 @@
-# Swift-Apps
-Repo for apps made from Swift for iOS and macOS
+# Typer Pro 
+<img src="https://github.com/savagegod22/swift-apps/blob/master/Typer%20Pro/Typer-Pro-iOS-App-Icon-Rounded.png" width="256">
+<h1> What is Typer Pro? </h1>
+Typer Pro is an app where you can type anything.
+You can also use the code in it.
+Typer Pro uses Swift and SwiftUI. It is powered by TextEditor()
 
-This is where I keep all of my test/work-in-progress apps.
-
-All of this code is made in `swift`
-
-I prefer `SwiftUI` for iOS and macOS apps.
+<img src="https://github.com/savagegod22/swift-apps/blob/master/Typer_Pro_iOS_App.png" width="256">
